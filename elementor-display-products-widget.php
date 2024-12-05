@@ -4,7 +4,8 @@
  * Plugin Name: Elementor WooCommerce Product Widget
  * Description: Custom Elementor widget to display WooCommerce products.
  * Version: 1.0
- * Author: Your Name
+ * Author: Rasol Marzban
+ * Email: rasolmarzban@outlook.com
  */
 
 if (! defined('ABSPATH')) {
