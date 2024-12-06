@@ -5,7 +5,7 @@
             // Get the regular price
             $regular_price = $product->get_regular_price();
             // Format the price with currency symbol
-            echo wp_kses_post(get_woocommerce_currency_symbol() . $regular_price);
+            echo wp_kses_post($regular_price . " " . get_woocommerce_currency_symbol());
             ?>
         </span>
         <span class="sale-price" style="color: <?php echo esc_attr($settings['sale_price_color']); ?>;">
@@ -13,7 +13,7 @@
             // Get the sale price
             $sale_price = $product->get_sale_price();
             // Format the sale price with currency symbol
-            echo wp_kses_post(get_woocommerce_currency_symbol() . $sale_price);
+            echo wp_kses_post($sale_price . " " . get_woocommerce_currency_symbol());
             ?>
         </span>
     <?php else : ?>
@@ -22,7 +22,7 @@
             // Get the regular price
             $regular_price = $product->get_regular_price();
             // Format the price with currency symbol
-            echo wp_kses_post(get_woocommerce_currency_symbol() . $regular_price);
+            echo wp_kses_post($regular_price . " " . get_woocommerce_currency_symbol());
             ?>
         </span>
     <?php endif; ?>

@@ -1,7 +1,7 @@
 <?php if (!defined('ABSPATH')) exit; ?>
 
 <!-- Start Trending Product Area -->
-<section class="trending-product section">
+<section class="trending-product section" style="direction:rtl;">
     <div class="container">
         <div class="row">
             <div class="col-12">

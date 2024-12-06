@@ -17,7 +17,7 @@ class WooCommerce_Products_Widget extends Widget_Base
 
     public function get_icon()
     {
-        return 'fa fa-shopping-cart';
+        return 'fa fa-th';
     }
 
     public function get_categories()
