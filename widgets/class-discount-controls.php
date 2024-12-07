@@ -11,7 +11,7 @@ class Products_Discount_Controls
         $widget->start_controls_section(
             'discount_style_section', // Unique ID for widget section
             [
-                'label' => __('Discount Style', 'woocommerce_display_product'),
+                'label' => __('استایل درصد تخفیف', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class Products_Discount_Controls
         $widget->add_control(
             'discount__title_color',
             [
-                'label' => __('Discount Title Color', 'woocommerce_display_product'),
+                'label' => __('رنگ درصد تخفیف', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#FF0000', // Example color for discount
                 'selectors' => [
@@ -31,7 +31,7 @@ class Products_Discount_Controls
         $widget->add_control(
             'discount__background_color',
             [
-                'label' => __('Discount Background Color', 'woocommerce_display_product'),
+                'label' => __('رنگ پس زمینه', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#FF0000', // Example color for discount
                 'selectors' => [

@@ -10,7 +10,7 @@ class Products_Image_Controls
         $widget->start_controls_section(
             'image_style_section', // Unique ID for widget section
             [
-                'label' => __('Image Style', 'woocommerce_display_product'),
+                'label' => __('استایل تصویر', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -19,7 +19,7 @@ class Products_Image_Controls
         $widget->add_control(
             'thumbnail_size',
             [
-                'label' => __('Thumbnail Size', 'woocommerce_display_product'),
+                'label' => __('سایز تصویر', 'woocommerce_display_product'),
                 'type' => Controls_Manager::SLIDER,
                 'size_units' => ['px', 'em', 'rem'],
                 'range' => [
@@ -42,7 +42,7 @@ class Products_Image_Controls
         $widget->add_control(
             'image_alignment',
             [
-                'label' => __('Image Alignment', 'woocommerce_display_product'),
+                'label' => __('تراز سازی', 'woocommerce_display_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [

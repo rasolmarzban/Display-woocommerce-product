@@ -11,7 +11,7 @@ class Title_Section_Controls
         $widget->start_controls_section(
             'title_content_section',
             [
-                'label' => __('Title Content', 'woocommerce_display_product'),
+                'label' => __('محتوای عنوان', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -20,7 +20,7 @@ class Title_Section_Controls
         $widget->add_control(
             'section_title',
             [
-                'label' => __('Title', 'woocommerce_display_product'),
+                'label' => __('عنوان', 'woocommerce_display_product'),
                 'type' => Controls_Manager::TEXT,
                 'default' => __('Trending Products', 'woocommerce_display_product'), // Default value
                 'placeholder' => __('Enter your section title', 'woocommerce_display_product'), // Placeholder for input
@@ -31,7 +31,7 @@ class Title_Section_Controls
         $widget->add_control(
             'section_description',
             [
-                'label' => __('Description', 'woocommerce_display_product'),
+                'label' => __('توضیحات', 'woocommerce_display_product'),
                 'type' => Controls_Manager::TEXTAREA,
                 'default' => __('There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.', 'woocommerce_display_product'), // Default value
                 'placeholder' => __('Enter your section description', 'woocommerce_display_product'), // Placeholder for input
@@ -44,7 +44,7 @@ class Title_Section_Controls
         $widget->start_controls_section(
             'title_discription_style_section', // Unique ID for widget section
             [
-                'label' => __('Title & Discription', 'woocommerce_display_product'),
+                'label' => __('عنوان و توضیحات', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -53,7 +53,7 @@ class Title_Section_Controls
         $widget->add_control(
             'title_color',
             [
-                'label' => __('Title Color', 'woocommerce_display_product'),
+                'label' => __('رنگ عنوان', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#000000', // Default color
                 'selectors' => [
@@ -65,7 +65,7 @@ class Title_Section_Controls
         $widget->add_control(
             'title_color_hover',
             [
-                'label' => __('Title Color On Hover', 'woocommerce_display_product'),
+                'label' => __('رنگ عنوان در هاور', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#000000', // Default color
                 'selectors' => [
@@ -79,7 +79,7 @@ class Title_Section_Controls
             \Elementor\Group_Control_Typography::get_type(),
             [
                 'name' => 'title_typography',
-                'label' => __('Title Typography', 'woocommerce_display_product'),
+                'label' => __('تایپوگرافی عنوان', 'woocommerce_display_product'),
                 'selector' => '{{WRAPPER}} .section-title h2',
             ]
         );
@@ -88,7 +88,7 @@ class Title_Section_Controls
         $widget->add_control(
             'title_alignment',
             [
-                'label' => __('Title Alignment', 'woocommerce_display_product'),
+                'label' => __('مرتب سازی عنوان', 'woocommerce_display_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [
@@ -115,7 +115,7 @@ class Title_Section_Controls
         $widget->add_control(
             'description_color',
             [
-                'label' => __('Description Color', 'woocommerce_display_product'),
+                'label' => __('رنگ توضیحات', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#777777', // Default color
                 'selectors' => [
@@ -127,7 +127,7 @@ class Title_Section_Controls
         $widget->add_control(
             'description_color_hover',
             [
-                'label' => __('Description Color on hover', 'woocommerce_display_product'),
+                'label' => __('رنگ توضیحات در هاور', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#777777', // Default color
                 'selectors' => [
@@ -141,7 +141,7 @@ class Title_Section_Controls
             \Elementor\Group_Control_Typography::get_type(),
             [
                 'name' => 'description_typography',
-                'label' => __('Description Typography', 'woocommerce_display_product'),
+                'label' => __('تایپوگرافی توضیحات', 'woocommerce_display_product'),
                 'selector' => '{{WRAPPER}} .section-title p',
             ]
         );
@@ -150,7 +150,7 @@ class Title_Section_Controls
         $widget->add_control(
             'description_alignment',
             [
-                'label' => __('Description Alignment', 'woocommerce_display_product'),
+                'label' => __('تایپوگرافی توضیحات', 'woocommerce_display_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [

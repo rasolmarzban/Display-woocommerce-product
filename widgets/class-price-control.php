@@ -10,7 +10,7 @@ class Product_Price_Controls
         $widget->start_controls_section(
             'price_style_section', // Unique ID for this section
             [
-                'label' => __('Price Style', 'woocommerce_display_product'),
+                'label' => __('استایل قیمت', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -19,7 +19,7 @@ class Product_Price_Controls
         $widget->add_control(
             'regular_price_color',
             [
-                'label' => __('Regular Price Color', 'woocommerce_display_product'),
+                'label' => __('رنگ قیمت اولیه', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#000000', // Default color
                 'selectors' => [
@@ -32,7 +32,7 @@ class Product_Price_Controls
         $widget->add_control(
             'regular_price_strikethrough_color',
             [
-                'label' => __('Regular Price Strikethrough Color', 'woocommerce_display_product'),
+                'label' => __('رنگ قیمت بعد از تخفیف', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#888888', // Default strikethrough color
                 'selectors' => [
@@ -45,7 +45,7 @@ class Product_Price_Controls
         $widget->add_control(
             'sale_price_color',
             [
-                'label' => __('Sale Price Color', 'woocommerce_display_product'),
+                'label' => __('رنگ قیمت تخفیف خورده', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#FF0000', // Example color for sale prices
                 'selectors' => [

@@ -10,7 +10,7 @@ class Add_To_Cart_Btn_Controls
         $widget->start_controls_section(
             'button_style_section', // Unique ID for widget section
             [
-                'label' => __('Button Style', 'woocommerce_display_product'),
+                'label' => __('استایل کلید', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -19,7 +19,7 @@ class Add_To_Cart_Btn_Controls
         $widget->add_control(
             'button_text_color', // Control ID
             [
-                'label' => __('Text Color', 'woocommerce_display_product'),
+                'label' => __('رنگ متن', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#ffffff', // Default text color
                 'selectors' => [
@@ -32,7 +32,7 @@ class Add_To_Cart_Btn_Controls
         $widget->add_control(
             'button_background_color', // Control ID
             [
-                'label' => __('Background Color', 'woocommerce_display_product'),
+                'label' => __('رنگ پس زمینه', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#007cba', // Default background color
                 'selectors' => [
@@ -45,7 +45,7 @@ class Add_To_Cart_Btn_Controls
         $widget->add_control(
             'button_text_size', // Control ID
             [
-                'label' => __('Text Size', 'woocommerce_display_product'),
+                'label' => __('سایز متن', 'woocommerce_display_product'),
                 'type' => Controls_Manager::SLIDER,
                 'range' => [
                     'px' => [
@@ -68,7 +68,7 @@ class Add_To_Cart_Btn_Controls
         $widget->add_control(
             'button_hover_text_color', // Control ID
             [
-                'label' => __('Hover Text Color', 'woocommerce_display_product'),
+                'label' => __('رنگ متن در هاور', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#ffffff', // Default hover text color
                 'selectors' => [
@@ -81,7 +81,7 @@ class Add_To_Cart_Btn_Controls
         $widget->add_control(
             'button_hover_background_color', // Control ID
             [
-                'label' => __('Hover Background Color', 'woocommerce_display_product'),
+                'label' => __('رنگ پس زمینه در هاور', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#005177', // Default hover background color
                 'selectors' => [

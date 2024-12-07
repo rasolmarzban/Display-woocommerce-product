@@ -11,7 +11,7 @@ class Products_Title_Controls
         $widget->start_controls_section(
             'title_style_section', // Unique ID for widget section
             [
-                'label' => __('Title Product Style', 'woocommerce_display_product'),
+                'label' => __('استایل عنوان محصول', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class Products_Title_Controls
         $widget->add_control(
             'title_color',
             [
-                'label' => __('Product Title Color', 'woocommerce_display_product'),
+                'label' => __('رنگ متن محصول', 'woocommerce_display_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#333333',
                 'selectors' => [
@@ -33,7 +33,7 @@ class Products_Title_Controls
         $widget->add_control(
             'title_size',
             [
-                'label' => __('Product Title Size', 'woocommerce_display_product'),
+                'label' => __('سایز عنوان محصول', 'woocommerce_display_product'),
                 'type' => Controls_Manager::SLIDER,
                 'size_units' => ['px', 'em', 'rem'],
                 'range' => [

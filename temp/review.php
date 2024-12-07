@@ -26,9 +26,9 @@
 
     // Display review count
     if ($rating_count > 0) {
-        echo '<li><span>' . esc_html($average) . ' (' . esc_html($rating_count) . ' Review' . ($rating_count > 1 ? 's' : '') . ')</span></li>';
+        echo '<li><span>' . esc_html($average) . ' (' . esc_html($rating_count) . 'بازدید' . ($rating_count > 1 ? 's' : '') . ')</span></li>';
     } else {
-        echo '<li><span>No reviews yet</span></li>';
+        echo '<li><span>بازدیدی نداشته است.</span></li>';
     }
     ?>
 </ul>

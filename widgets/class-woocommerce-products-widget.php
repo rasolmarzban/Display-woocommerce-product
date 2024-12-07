@@ -30,7 +30,7 @@ class WooCommerce_Products_Widget extends Widget_Base
         $this->start_controls_section(
             'content_section',
             [
-                'label' => __('Content', 'woocommerce_display_product'),
+                'label' => __('محتوا', 'woocommerce_display_product'),
                 'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -38,7 +38,7 @@ class WooCommerce_Products_Widget extends Widget_Base
         $this->add_control(
             'category',
             [
-                'label' => __('Select Category', 'woocommerce_display_product'),
+                'label' => __('انتخاب دسته بندی', 'woocommerce_display_product'),
                 'type' => Controls_Manager::SELECT2,
                 'options' => $this->get_product_categories(),
                 'default' => 'default',
@@ -49,7 +49,7 @@ class WooCommerce_Products_Widget extends Widget_Base
         $this->add_control(
             'order',
             [
-                'label' => __('Order By', 'woocommerce_display_product'),
+                'label' => __('مرتب سازی', 'woocommerce_display_product'),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
                     'price' => __('Price', 'woocommerce_display_product'),
@@ -63,7 +63,7 @@ class WooCommerce_Products_Widget extends Widget_Base
         $this->add_control(
             'number_of_products',
             [
-                'label' => __('Number of Products', 'woocommerce_display_product'),
+                'label' => __('تعداد محصولات در صفحه', 'woocommerce_display_product'),
                 'type' => Controls_Manager::NUMBER,
                 'default' => 12, // Default to show all products or specify a number
             ]
@@ -72,7 +72,7 @@ class WooCommerce_Products_Widget extends Widget_Base
         $this->add_control(
             'columns',
             [
-                'label' => __('Number of Columns', 'woocommerce_display_product'),
+                'label' => __('تعداد بخش ها', 'woocommerce_display_product'),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
                     '2' => __('2 Columns', 'woocommerce_display_product'),
